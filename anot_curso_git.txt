@@ -1,0 +1,15 @@
+- git init - adiciona uma pasta oculta .git dentro do diretório - cria uma repositório lá
+- git add - adiciona um ou mais arquivos para uma área de stating
+- git commit - faz comit de todos os arquivos da área de staging 
+- git status - mostra o status dos arquivos da pasta do repositório, se houve alteração, se está na área de staging ou não, quais arquivos estão sendo "trackeados", 
+- git log - mostra cada linha do tempo dos commits
+- git show <id pego no git log> - mostra detalhes da alteração. Mostra quais alterações nos arquivos ou inclusões de arquivos
+- git branch - linha do tempo
+- git branch feature/lista-produtos - cria nova branch
+- git checkout feature/lista-produtos - altera a branch
+- git reset - limpa a área de stating
+- git merge feature/lista-produtos (de dentro da master) -> merge da lista produtos para o master
+   - todas as vezes que fizer altearações em uma branch e quiser jogar na master, precisa fazer um novo merge
+- git branch -D feature/lista-produtos
+
+
